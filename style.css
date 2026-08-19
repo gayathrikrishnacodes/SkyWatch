@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: url("bg.png") center center/cover no-repeat fixed;
+    overflow-x: hidden;
+
+}
+h1{
+    margin-right: 0;
+    color: rgb(177, 175, 175);
+    text-align: center;
+    margin-top: 40px;
+}
+.p1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(230, 228, 228);
+    font-size: large;
+}
+
+#search{
+    text-align: center;
+    margin-top: 50px;
+}
+.Search{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(177, 175, 175);
+    background-color: transparent;
+    border-radius: 20px;
+
+}
+input{
+    color: aliceblue;
+    font-size:14px;
+    font-family: cursive;
+font-weight: 700;
+}
+
+.Search:hover{
+    border: 3px solid white;
+    backdrop-filter: blur(3px);
+
+}
+.Search-btn:hover{
+    border: 3px solid rgb(214, 213, 213);
+    background-color: rgb(7, 195, 94);
+}
+::placeholder{
+    color: rgb(215, 217, 219);
+padding-left: 20px;
+
+}
+.Search-btn{
+    height: 40px;
+     border: 2px solid rgb(177, 175, 175);
+    background-color: transparent;
+    border-radius: 20px;
+    background-color: rgb(105, 105, 241);
+
+    width: 60px;
+}
+#condition{
+    color: rgb(220,220,220);
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.card{
+    width: 540px;
+    height: 490px;
+         border: 2px solid rgb(177, 175, 175);
+         /* margin-left: 490px; */
+         margin: auto;
+         margin-top: 50px;
+         border-radius: 5px;
+         backdrop-filter: blur(3px);
+         
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.loca{
+    width: 70px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+#cityName{
+    font-size: x-large;
+    color: rgb(230, 227, 227) ;
+    margin-top: 40px;
+    text-align: center;
+}
+#date{
+   color: rgb(230, 227, 227) ;  
+   text-align: center;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.deg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    border-bottom: 1px solid whitesmoke;
+    width: 475px;
+margin-left: 30px;
+}
+#degree{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 550;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.hum-card{
+    margin: 30px;
+    /* border:  0 0 1px 0 solid white; */
+    border-bottom: 1px solid rgb(198, 194, 194);
+    width: 160px;
+    padding: 0px;
+    height: 40px;
+    margin-left: 50px;
+        display: flex;
+        align-items: center;
+
+}
+.hum-img{
+width: 60px;
+height: 40px;
+}
+
+.hums{
+    color: aliceblue;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.day-p{
+    color: whitesmoke;
+    /* margin-left: 40px; */
+    margin-top: 1px;
+    font-size: medium;
+    text-align: center;
+}
+.day-img{
+    width: 60px;
+height: 40px;
+margin-left: 10px;
+margin-top: 10px;
+gap: 20px;
+}
+.day-imgs{
+    width: 50px;
+height: 40px;
+margin-left: 20px;
+margin-top: 10px;
+gap: 20px;
+}
+.p4{
+    margin: 5px;
+    margin-left: 28px;
+    color: aliceblue;
+}
+.p5{
+    margin: 5px;
+    margin-left: 28px;
+    color: rgb(189, 187, 187);
+    font-size: smaller;
+}
+.day-card{
+    border-right: 1px solid rgb(201, 198, 198);
+    height: 120px;
+    margin-top: 10px;
+    width: 90px;
+}
+.day-cards{
+    /* border-right: 1px solid whitesmoke; */
+    height: 120px;
+    margin-top: 10px;
+    width: 90px;
+}
+@media(max-width:480){
+    h1,.p1{
+        text-align: center;
+        margin-left: 30px;
+    }
+    #search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: auto;
+        
+    }
+}

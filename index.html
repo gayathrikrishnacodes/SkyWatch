@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b>SkyWatch</b></h1>
+    <p class="p1">Find The Weather Of Your Favorite Place</p>
+    <div id="search">
+            <!-- <img src="location.png" alt="Location" class="location-icon"> -->
+    <input id="cityInput"  class="Search" type="text"  placeholder= "📍 Enter a place..." >
+    <button id="searchBtn" class="Search-btn">Search</button>
+    </div>
+    <div class="card">
+        <div class="location">
+        <img class="loca" src="loca.png" alt="">
+        <p id="cityName">Chennai</p>        </div>
+
+        <p id="date">Monday,28 Nov 2026</p>
+        <div class="deg">
+        <img id="icon" class="icon" src="icon.png" alt="">
+        <div>
+        <p id="degree">32&deg;C</p> 
+                <p id="condition">Partly Cloudy</p>
+
+</div>
+               <!-- <p>Partly Cloudy</p> -->
+
+        <div id="hum">
+            <div class="hum-card">
+            <img class="hum-img" src="humi.png" alt="">
+            <div class="hums">
+            <h5>Humidity</h5>
+            <p id="humidity">68%</p>
+            </div>
+            </div>
+
+            <div class="hum-card">
+            <img class="hum-img" src="wind.png" alt="">
+            <div class="hums">
+            <h5>Wind Speed</h5>
+            <p id="windSpeed">68%</p>
+            </div>
+            </div>
+
+            <div class="hum-card">
+            <img class="hum-img" src="feels.png" alt="">
+            <div class="hums">
+            <h5>Feels like</h5>
+            <p id="feelsLike">68%</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div id="forecast" class="days">
+            <div class="day-card">
+                <h5 class="day-p">Sun</h5>
+                <img class="day-img" src="rain.png" alt="">
+                <p class="p4">31&degC</p>
+                <p class="p5">24&degC</p>
+            </div>
+
+ <div class="day-card">
+                <h5 class="day-p">Mon</h5>
+                <img class="day-img" src="sun.png" alt="">
+                <p class="p4">33&degC</p>
+                <p class="p5">25&degC</p>
+            </div>
+             <div class="day-card">
+                <h5 class="day-p">Tue</h5>
+                <img class="day-img" src="clo.png" alt="">
+                <p class="p4">32&degC</p>
+                <p class="p5">24&degC</p>
+            </div>
+
+             <div class="day-card">
+                <h5 class="day-p">Wed</h5>
+                <img class="day-img" src="lig.png" alt="">
+                <p class="p4">30&degC</p>
+                <p class="p5">23&degC</p>
+            </div>
+
+             <div class="day-card">
+                <h5 class="day-p">Fri</h5>
+                <img class="day-imgs" src="icon.png" alt="">
+                <p class="p4">31&degC</p>
+                <p class="p5">24&degC</p>
+            </div>
+
+            
+
+               <div class="day-card">
+                <h5 class="day-p">Wed</h5>
+                <img class="day-img" src="raa.png" alt="">
+                <p class="p4">30&degC</p>
+                <p class="p5">23&degC</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
